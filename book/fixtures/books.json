@@ -1,0 +1,1202 @@
+[
+    {
+        "model": "book.book",
+        "pk": 1,
+        "fields": {
+            "title": "1984 ",
+            "author": 1,
+            "description": "Set in 1984, Winston Smith must overcome a frightening enemy: an omniscient government with an agenda. This is the book that became a standard-bearer for dystopian fiction and introduced Big Brother into our everyday vocabulary. Perhaps the mightiest of George Orwell\u2019s works.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/1984_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 2,
+        "fields": {
+            "title": "Adventures of Huckleberry Finn",
+            "author": 2,
+            "description": "A young boy and a slave in 19th-century Louisiana must find their way home \u2014 with only the Mississippi River for a guide. This slender book by Mark Twain\u2019s is so well-regarded that it\u2019s said by many to be The Great American Novel.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Adventures_of_Huckleberry_Finn.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 3,
+        "fields": {
+            "title": "The Adventures of Sherlock Holmes",
+            "author": 3,
+            "description": "In 1891, Sir Arthur Conan Doyle published \u201cA Scandal in Bohemia,\u201d the first short story to feature Sherlock Holmes. Sharp and engrossing, this collection shows how exactly Sherlock Holmes became a cultural phenomenon and the most recognizable detective of all time.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Adventures_of_Sherlock_Holmes.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Alchemist",
+            "author": 4,
+            "description": "Written in only two weeks,The Alchemisthas sold more than two million copies worldwide \u2014 and the magical story of Santiago\u2019s journey to the pyramids of Egypt continues to enchant readers worldwide. A dreamy triumph.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Alchemist.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 5,
+        "fields": {
+            "title": "The Aleph and Other Stories",
+            "author": 5,
+            "description": "Jorge Luis Borges\u2019 keen insight and philosophical wisdom is on full display in this acclaimed short story collection. From \u201cThe Immortal\u201d to \u201cThe House of Asterion,\u201d the stories within are glittering, haunting examples of worlds created by a master of magic realism.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Aleph_and_Other_Stories.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 6,
+        "fields": {
+            "title": "Animal Farm",
+            "author": 6,
+            "description": "When Old Major the boar dies on Manor Farm, two young pigs named Snowball and Napoleon rise to create new leadership in this allegorical book that is supposed to mirror the Russian Revolution of 1917 \u2014 and the ensuing Stalinist Soviet Union.Animal Farmis a stunning achievement, and not just because Orwell proved that a story about pigs can be terrifying.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Animal_Farm.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 7,
+        "fields": {
+            "title": "Aesop's Fables",
+            "author": 7,
+            "description": "This enduring collection of tales was passed down through oral tradition more than two millennia ago. More than simple stories, Aesop\u2019s stories reflect every aspect of human nature.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Aesop's_Fables.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 8,
+        "fields": {
+            "title": "Alice's Adventures in Wonderland ",
+            "author": 8,
+            "description": "Alice is only a young seven-year old girl when she notices a White Rabbit with a pocket watch running by. Thus begins Alice\u2019s adventures in a land that is not all that it seems. Lewis Carroll published this novel in 1865, sending it down the rabbit hole and straight into the hallowed halls of children\u2019s most treasured literature.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Alice's_Adventures_in_Wonderland_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 9,
+        "fields": {
+            "title": "Anna Karenina ",
+            "author": 9,
+            "description": "If you like lengthy books in which to immerse yourself, then this is a real treat. This epic novel tells the parallel stories of Anna Karenina and Konstantin Levin over a span of 800+ pages \u2014 dealing with social change, politics, theology, and philosophy in nineteenth-century Russia all the while.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Anna_Karenina_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 10,
+        "fields": {
+            "title": "Anne of Green Gables",
+            "author": 10,
+            "description": "To readAnne of the Green Gablesis to fall in love with its characters \u2014 particularly its protagonist, a fiery young girl with an imagination the size of castles. From coming-of-age arcs to the occasional drunken episode, this beloved classic by L.M. Montgomery has it all: laughs, pain, and heart.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Anne_of_Green_Gables.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 11,
+        "fields": {
+            "title": "As I Lay Dying",
+            "author": 11,
+            "description": "As William Faulkner attested: \u201cI set out deliberately to write a tour-de-force. Before I ever put pen to paper and set down the first word I knew what the last word would be and almost where the last period would fall.\u201d This is the grueling story of the Bundren family\u2019s slow, tortuous journey to bury Addie, their wife and mother, in her hometown of Mississippi.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/As_I_Lay_Dying.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 12,
+        "fields": {
+            "title": "Beloved",
+            "author": 12,
+            "description": "The winner of the Pulitzer Prize in 1988 and a finalist for the 1987 National Book Award,BelovedisToni Morrison\u2019s magnum opusabout Sethe, a former slave whose house may or may not be haunted by the ghost of the baby she had to murder. A peerless work about slavery, race, and the bonds of family.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Beloved.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 13,
+        "fields": {
+            "title": "The Book Thief",
+            "author": 13,
+            "description": "This children's book has an unmistakably distinct narrator \u2014 Death. Set in Nazi Germany, it follows Liesel, a young girl in her new foster care home. As the world around her begins to crumble, Liesel must find solace in books and the power of words.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Book_Thief.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 14,
+        "fields": {
+            "title": "Brave New World",
+            "author": 14,
+            "description": "One of the giants of the dystopian genre. Having already shaken up the literary world when it was first published,Brave New Worldis relevant even today as it urges readers to ask questions about autonomy, hedonism, and our definition of \u201cutopia.\u201d",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Brave_New_World.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 15,
+        "fields": {
+            "title": "The Brothers Karamazov",
+            "author": 15,
+            "description": "In a testimony to Albert Einstein's admiration ofThe Brothers Karamazov, novelist C.P. Snow once wrote, \"The Brothers Karamazov\u2014 that for him in 1919 was the supreme summit of all literature.\" You can step into Einstein\u2019s footsteps yourself by reading this powerful, stirring meditation on God and the power of free will.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Brothers_Karamazov.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 16,
+        "fields": {
+            "title": "Catch-22 ",
+            "author": 16,
+            "description": "Captain John Yossarian, a U.S. Army Air Forces B-25 bombardier, longs to return home. But that is a little hard when he is situated in the middle of nowhere \u2014 or, more specifically, the fictional island of Pianosa in the Mediterranean Sea. A searing satire that is defining of its times.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Catch-22_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 17,
+        "fields": {
+            "title": "The Catcher in the Rye",
+            "author": 17,
+            "description": "Meet Holden Caulfield: a teenager who, with no plans in mind, decides to leave his boarding school in Pennsylvania and head back home to New York. InThe Catcher in the Rye, J.D. Salinger has created perhaps the original \u201ccynical adolescent\u201d \u2014 and a wistful story about the meaning of youth.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Catcher_in_the_Rye.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 18,
+        "fields": {
+            "title": "Charlie and the Chocolate Factory",
+            "author": 18,
+            "description": "Eleven-year-old Charlie Bucket\u2019s life is turned upside down when he finds a Golden Ticket that gives him access to Willy Wonka\u2019s Chocolate Factory. So are young readers\u2019 heads, as they experience the magic of the Chocolate Factory (and Oompa-Loompas) for the first time in Roald Dahl\u2019s cherished children\u2019s book.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Charlie_and_the_Chocolate_Factory.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 19,
+        "fields": {
+            "title": "Charlotte's Web",
+            "author": 19,
+            "description": "Wilbur, the runt of his litter, is spared from certain death, thanks to a little girl named Fern. But his life takes a turn when he is sold to Homer Zuckerman, who eventually plans to butcher him, and meets a kind-hearted spider called Charlotte.Charlotte's Webis a staple of children\u2019s literature \u2014 and the bestselling children\u2019s paperback of all time.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Charlotte's_Web.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 20,
+        "fields": {
+            "title": "The Call of the Wild ",
+            "author": 20,
+            "description": "In the 1890s, a young dog named Buck hears the call of the wild. But can he answer it, especially when nature and man\u2019s cruelty are stacked against him? This rugged, gripping novel has inspired millions of adventures for many years.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Call_of_the_Wild_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 21,
+        "fields": {
+            "title": "A Clockwork Orange",
+            "author": 21,
+            "description": "It is an indeterminate year in the future and Alex is arrested by the government in the midst of an ultraviolent youth cultural rebellion.A Clockwork Orangeis one of the most enduring examinations of good and evil, and what it means to be free to choose one or the other.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/A_Clockwork_Orange.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 22,
+        "fields": {
+            "title": "The Code of the Woosters",
+            "author": 22,
+            "description": "Reading P.G. Wodehouse is one of the few things in life that will reliably delight. AndThe Code of the Woostersis Wodehouse at his sparkling best: a romp through Britain with an uproarious cast, including Jeeves, Bertie, and cow-creamers.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Code_of_the_Woosters.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 23,
+        "fields": {
+            "title": "The Collected of Edgar Allan Po",
+            "author": 23,
+            "description": "Edgar Allan Poe is synonymous with horror today and this is the collection that proves it. Packed with his best short stories, including \u201cThe Cask of Amontillado,\u201d \u201cThe Masque of the Red Death,\u201d and \u201cThe Tell-Tale Heart,\u201d it completely presents Poe\u2019s dark imagination and uncanny ability to capture the shadowy depths of the human heart.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Collected_of_Edgar_Allan_Po.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 24,
+        "fields": {
+            "title": "The Color Purple: A Novel",
+            "author": 24,
+            "description": "The acclaimed story of two women and the strength of their bond in the racist society of 1980s America.The Color Purplewon the 1983 Pulitzer Prize for Fiction, deservedly making Alice Walker the first African-American woman to receive the award.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Color_Purple:_A_Novel.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 25,
+        "fields": {
+            "title": "Coraline",
+            "author": 25,
+            "description": "Young Coraline Jones has just moved into an old house when she discovers a mysterious door. What lies beyond might even be beyond the limits of your wildest imagination in this dark fantasy novella that has become a universal favorite.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Coraline.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 26,
+        "fields": {
+            "title": "The Count of Monte Cristo",
+            "author": 26,
+            "description": "Edmond Dant\u00e8s, a young Frenchman, is falsely accused and imprisoned without trial in an island fortress off the coast of France \u2014 until the day he escapes and sets out to avenge himself.The Count of Monte Cristois revenge tale for the ages.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Count_of_Monte_Cristo.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 27,
+        "fields": {
+            "title": "Crime and Punishment",
+            "author": 27,
+            "description": "In this 1866 epic novel, a poor student in St. Petersburg makes the fateful decision to rob and kill an elderly pawnbroker for her money. The work that made Fyodor Dostoevsky one of the greats,Crime and Punishmentremains a hallmark study of greed, morality, and the dangers of radicalism.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Crime_and_Punishment.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 28,
+        "fields": {
+            "title": "The Curious Incident of the Dog in the Night-Time",
+            "author": 28,
+            "description": "Narrated by Christopher John Francis Boone, a 15-year old with autism,The Curious Incident of the Dog in the Night-Timeis the story of the night that Christopher finds a dead dog \u2014 and the fallout. Haddon invites readers to see the world through another\u2019s eyes in this captivating mystery novel with a twist that instantly became one of the must-read books of the 21st-century.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Curious_Incident_of_the_Dog_in_the_Night-Time.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 29,
+        "fields": {
+            "title": "The Death of Artemio Cruz ",
+            "author": 29,
+            "description": "Lying on his deathbed, corrupt soldier and politician Artemio Cruz is surrounded by family and a priest as they attempt to coax him into confessing his betrayals and crooked dealings.The Death of Artemio Cruzis a milestone in the boom ofLatin-American literature.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Death_of_Artemio_Cruz_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 30,
+        "fields": {
+            "title": "Diary of a Madman and Other Stories ",
+            "author": 30,
+            "description": "Inspired by Nikolai Gogol\u2019s short story of the same title, \u201cDiary of a Madman\u201d made Lu Xun one of the leading Chinese writers of his time. But there\u2019s more to Xun than just \u201cDiary of a Madman,\u201d as evidenced by this complete collection of his short stories.Are you craving more short story collections like Diary of a Madman and Other Stories?You can get your fill in this post that has21 of the best short story collections.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Diary_of_a_Madman_and_Other_Stories_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 31,
+        "fields": {
+            "title": "Anne Frank: The Diary of a Young Girl",
+            "author": 31,
+            "description": "Anne Frank was 13 years old when she and her family went in hiding. Ofthe diary that was published posthumously by Frank\u2019s father, John F. Kennedy once said: \"Of all the multitudes who throughout history have spoken for human dignity in times of great suffering and loss, no voice is more compelling than that of Anne Frank.\"",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Anne_Frank:_The_Diary_of_a_Young_Girl.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 32,
+        "fields": {
+            "title": "The Divine Comedy",
+            "author": 32,
+            "description": "Few authors are so exalted that they\u2019re recognized by their first names, and even fewer books are as lofty asThe Divine Comedy. Dante\u2019s journey through Hell, Purgatory, and Heaven is a feat of imagination and an undisputed giant in world literature.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Divine_Comedy.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 33,
+        "fields": {
+            "title": "Don Quixote",
+            "author": 33,
+            "description": "Considered one of the greatest works in the pantheon of world literature,Don Quixotefollows the ill-fated adventures of Alonso Quixano: a middle-aged man who loses his sanity and believes himself to be one of the knights in shining armor he has read about in chivalric books.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Don_Quixote.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 34,
+        "fields": {
+            "title": "Dracula",
+            "author": 34,
+            "description": "A small band of friends must stop Count Dracula from coming to England and spreading the curse of the undead all over the continent. Published in 1897,Draculaboasts the original vampire and lastingly re-defined gothic fantasy.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Dracula.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 35,
+        "fields": {
+            "title": "Emma",
+            "author": 35,
+            "description": "In Regency England, a young woman named Emma Woodhouse is determined to matchmake the friends around her. Hijinks and plenty of revelations of the heart ensue. Of her titular character, Jane Austen wrote, \"I am going to take a heroine whom no one but myself will much like.\" But anyone who reads the book will end up falling in love with imperfect and high-spirited Emma.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Emma.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 36,
+        "fields": {
+            "title": "Fahrenheit 451",
+            "author": 36,
+            "description": "Perhaps the singular work that doubles as both an incisive commentary on mass media and a bookworm\u2019s worst nightmare. InRay Bradbury\u2019stowering dystopian masterpiece, Guy Montag is a conflicted fireman who is intimately familiar with fahrenheit 451: the temperature at which books burn.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Fahrenheit_451.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 37,
+        "fields": {
+            "title": "Frankenstein",
+            "author": 37,
+            "description": "The grandfather of monster fiction,Frankensteinhas fanned the imaginations of horror and suspense lovers around the world. Mary Shelley\u2019s enduring legacy of a mad scientist and his tortured, anguished creation (with abadass name) is to this day considered to be the first science-fiction book ever written.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Frankenstein.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 38,
+        "fields": {
+            "title": "The Giver ",
+            "author": 38,
+            "description": "12-year old Jonas lives in a seemingly utopian society. However, when he is assigned to take over as the next Receiver of Memory, he discovers that there\u2019s more to his community than meets the eye. An astute, lyrical children\u2019s book.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Giver_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 39,
+        "fields": {
+            "title": "The Golden Compass",
+            "author": 39,
+            "description": "A retelling of John Milton\u2019sParadise Lostfor the 21st century,The Golden Compasstransports readers into a world of animal familiars, parallel universes, and brave young girls who could make a difference.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Golden_Compass.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 40,
+        "fields": {
+            "title": "Goodnight Moon",
+            "author": 40,
+            "description": "\u201cGoodnight room. Goodnight moon. Goodnight cow jumping over the moon.\u201d Beautiful illustrations and perfect rhyme have made Margaret Wise Brown\u2019sGoodnight Moona cherished favorite of children everywhere.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Goodnight_Moon.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 41,
+        "fields": {
+            "title": "Great Expectations",
+            "author": 41,
+            "description": "Pip\u2019s journey from a poor apprentice to a gentleman has become the stuff of literary legend. First published in 1861,Great Expectationsremains one ofCharles Dickens\u2019 finest and most famous works.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Great_Expectations.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 42,
+        "fields": {
+            "title": "The Great Gatsby",
+            "author": 42,
+            "description": "When Nick Carraway settles down in decadent 1920s New York for a summer, he has no idea what awaits him in the booming parties, Daisy Buchanan, and the mysterious figure at the center of it all, Jay Gatsby. InThe Great Gatsby, F. Scott Fitzgerald has crafted a masterwork for the ages and a haunting contemplation of the American Dream.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Great_Gatsby.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 43,
+        "fields": {
+            "title": "Grimm's Fairy Tales",
+            "author": 43,
+            "description": "Often said to be Disney for grown-ups. Beware:Grimm's Fairy Talesare much crueler and cruder than the stories that most children know.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Grimm's_Fairy_Tales.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 44,
+        "fields": {
+            "title": "Gulliver's Travels",
+            "author": 44,
+            "description": "Savage and brilliant, Jonathan Swift bends his satirical eye on humankind himself inGulliver\u2019s Travels. Gulliver's  Travels is one of the bestselling parodies of all time for a reason.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Gulliver's_Travels.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 45,
+        "fields": {
+            "title": "Hamlet",
+            "author": 45,
+            "description": "Who is Hamlet, Prince of Denmark \u2014 and is he truly seeing the ghost of his father or is he going mad? William Shakespeare\u2019s most famous work boasts not only one of the most quoted lines in history (\u201cTo be or not to be\u201d), but also the complex character who ever belonged on stage (Hamlet).",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Hamlet.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 46,
+        "fields": {
+            "title": "The Handmaid's Tale",
+            "author": 46,
+            "description": "In this terrifying vision of the future, Margaret Atwood imagines a society governed by gender discrimination. More than a tour de force in the dystopian genre,The Handmaid\u2019s Taleis a grim, evergreen inquisition of identity, marriage, and what it means to be free.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Handmaid's_Tale.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 47,
+        "fields": {
+            "title": "Harry Potter",
+            "author": 47,
+            "description": "The worldwide phenomenon of the boy who lived is known by pretty much every child and adult alive today, but if you haven\u2019t given it a chance yet, this is the time to do it. Follow eleven-year-old Harry, Ron, and Hermione as they grow up, study magic, and learn how to defeat the Dark Lord \u2014 and try to make it out alive.Have you read Harry Potter and you're not sated yet?Don't forget to check out these20 great books like Harry Potter.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Harry_Potter.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 48,
+        "fields": {
+            "title": "Heart of Darkness",
+            "author": 48,
+            "description": "Charles Marlow is dispatched to the Congo in Africa on behalf of a Belgian trading company \u2014 but he gets more than he bargained for in the jungle\u2019s literal heart of darkness. A grim masterpiece that catapulted Joseph Conrad among the ranks of the great writers.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Heart_of_Darkness.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 49,
+        "fields": {
+            "title": "Here's to You, Jesusa!",
+            "author": 49,
+            "description": "Fiery and penetrating, this passionate story of one of Mexico\u2019s most challenging times provides the unique perspective of women in the midst of heated combat as they struggle to survive.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Here's_to_You,_Jesusa!.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 50,
+        "fields": {
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "author": 50,
+            "description": "Arthur Dent is the only man who survived the destruction of Earth. Now he must journey through the galaxy, alongside an alien writer who\u2019s working on an electronic book that\u2019s only calledThe Hitchhiker\u2019s Guide to the Galaxy.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Hitchhiker's_Guide_to_the_Galaxy.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 51,
+        "fields": {
+            "title": "The Hobbit",
+            "author": 51,
+            "description": "Bilbo Baggins only wanted a peaceful dinner party. What he gets instead is something that\u2019s not perhaps to his taste: a band of twelve dwarves in his house, a dragon to defeat, and an epic adventure. And it all begins with this iconic first line: \u201cIn a hole in the ground lived a hobbit.\u201d",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Hobbit.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 52,
+        "fields": {
+            "title": "Holes ",
+            "author": 52,
+            "description": "Stanley Yelnats isthatunlucky boy who gets sent to Camp Green Lake: a Texan juvenile corrections facility where boys dig holes all day in a dried-up lake. In this popular children\u2019s book, three storylines intertwine to solve century-old mysteries.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Holes_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 53,
+        "fields": {
+            "title": "Hopscotch",
+            "author": 53,
+            "description": "An ingenious, one-of-a-kind novel \u2014 literally. The story of Horacio Oliveira, a well-read bohemian, is divided into 155 chapters that can be read in multiple orders: sequentially or by following the suggested reading guide, which prompts readers to jump around various chapters and makes 99 of the 155 chapters expendable.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Hopscotch.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 54,
+        "fields": {
+            "title": "The Iliad",
+            "author": 54,
+            "description": "Having been born into an age of heroes and warriors, Homer created a work of art that was deserving of them. Relive the fall of Troy and the glory of Achilles in this epic poem that has survived for a couple thousand years and counting.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Iliad.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 55,
+        "fields": {
+            "title": "Invisible Man",
+            "author": 55,
+            "description": "A young black man grows up in the South before moving to New York and becoming a spokesman for \u201cthe Brotherhood\u201d in 1950s Harlem.Invisible Manis key part of American literature that probingly examines racism, black identity, and why some are more invisible in society than others.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Invisible_Man.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 56,
+        "fields": {
+            "title": "Jane Eyre ",
+            "author": 56,
+            "description": "This landmark novel that re-defined narrative consciousness centers on the eponymousJane Eyre, an orphan born in 1800s England. As Jane grows up, she takes her destiny into her own hands \u2014 which becomes particularly poignant when she meets the brooding Mr. Rochester at Thornfield Hall.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Jane_Eyre_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 57,
+        "fields": {
+            "title": "Journey to the Center of the Earth",
+            "author": 57,
+            "description": "This definitive science fiction novel shares the story of Otto Lidenbrock: a professor who ventures to nowhere else but the center of the Earth with his nephew Axel, and Hans, a guide.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Journey_to_the_Center_of_the_Earth.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 58,
+        "fields": {
+            "title": "Les Mis\u00e9rables",
+            "author": 58,
+            "description": "Considered by many to be one of the most luminous literary works of the 19th-century,Les Mis\u00e9rablesspans the tumultuous 17 years from 1815 to 1932, during which politics, justice, religion, and love all come to a head in the June Rebellion in Paris.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Les_Mis\u00e9rables.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 59,
+        "fields": {
+            "title": " Life of Pi",
+            "author": 59,
+            "description": "Pi Patel is only a young boy when his freighter to North America sinks and he\u2019s stuck on a small lifeboat with an orangutan, a hyena \u2014 and a tiger. Dramatic, humorous, and thoughtful, Yann Martel\u2019s book made waves when it was published in 2001.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/_Life_of_Pi.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 60,
+        "fields": {
+            "title": "The Lion, the Witch and the Wardrobe ",
+            "author": 60,
+            "description": "Lions, witches, talking fauns, and Turkish delights \u2014 oh my! C.S. Lewis\u2019 allegorical story about the four Pevensie siblings who walk into a closet and disappear into the land of Narnia has captivated children (and adults) for decades.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Lion,_the_Witch_and_the_Wardrobe_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 61,
+        "fields": {
+            "title": "The Little Prince",
+            "author": 61,
+            "description": "Not many stories are as unanimously beloved as this short one by Antoine de Saint-Exupery. Once readers find themselves the shoes of the little prince and seeing through his eyes, they won\u2019t be able to look away.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Little_Prince.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 62,
+        "fields": {
+            "title": "Little Women",
+            "author": 62,
+            "description": "The four March sisters \u2014 Meg, Jo, Beth and Amy \u2014 grow up and come of age in this seminal work of family drama. They might be women,but they are by no means littlein the halls of great literature.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Little_Women.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 63,
+        "fields": {
+            "title": "Lolita",
+            "author": 63,
+            "description": "The story of Humbert Humbert\u2019s obsessive quest for 12-year old Dolores Haze has haunted and captivated audiences for decades.Lolitais dark, sardonic, and ultimately genius study of madness and unreliability.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Lolita.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 64,
+        "fields": {
+            "title": "The Lord of the Rings ",
+            "author": 64,
+            "description": "No author casts a greater shadow over one genre quite like J.R.R. Tolkien andepic fantasy. Start here with the trilogy that launched it all:The Lord of the Ringsand Frodo\u2019s quest to rid Middle-Earth of Sauron once and for all.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Lord_of_the_Rings_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 65,
+        "fields": {
+            "title": "Love in the Time of Cholera",
+            "author": 65,
+            "description": "Florentino Ariza and Fermina Daza fell in love when they were young and were untimely torn apart by Fermina\u2019s father. But what happens when Florentino never forgets about Fermina \u2014 and decides to make his intentions known again after fifty years of separation?Love in the Time of Cholerais a towering magical realist classic.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Love_in_the_Time_of_Cholera.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 66,
+        "fields": {
+            "title": "Madame Bovary",
+            "author": 66,
+            "description": "Who is Madame Bovary? Gustave Flaubert once replied: \u201cMadame Bovary, c'est moi.\u201d And so he does show through this undisputedly great novel that Madame Bovary \u2014 a longing, brutally, introspective, hedonistic woman \u2014 lives in all of us.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Madame_Bovary.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 67,
+        "fields": {
+            "title": "Metamorphosis",
+            "author": 67,
+            "description": "What would you do if you wake up one morning and discover that you are now an insect? Franz Kafka answers this burning question in this short novel, regarded by many as a master stroke of genius.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Metamorphosis.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 68,
+        "fields": {
+            "title": "Moby-Dick",
+            "author": 68,
+            "description": "Man faces offagainst white whalein this 700-page story that remains one of the grandest works about morality and the nature of obsession. A must-read, and not just for the adventure.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Moby-Dick.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 69,
+        "fields": {
+            "title": "Mrs. Dalloway",
+            "author": 69,
+            "description": "Clarissa Dalloway said that she would buy the flowers herself, or so beginsMrs Dalloway. More than a mere story, Virginia Woolf breathes new life into stream of consciousness storytelling in this probing, gentle, and deeply transformative portrait of one ordinary woman\u2019s mind.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Mrs._Dalloway.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 70,
+        "fields": {
+            "title": "Murder on the Orient Express ",
+            "author": 70,
+            "description": "The most famous of Christie\u2019s detective stories featuring Monsieur Poirot and his formidable \u2018grey cells.\u2019 When a snowstorm grounds the luxurious Orient Express, death ensues onboard \u2014 and it\u2019s up to the detective to piece together the puzzle, especially since everyone on the train seems to have an alibi.Looking for more books by the Mistress of Mystery?We've got you covered with the10 best Agatha Christie books.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Murder_on_the_Orient_Express_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 71,
+        "fields": {
+            "title": "Of Mice and Men",
+            "author": 71,
+            "description": "George Milton and Lennie Small make an odd couple, working on California\u2019s dusty ranches and dreaming of a shack of their own. But all might be lost when they move to a new farm \u2014 even each other. This is Steinbeck at his peak in this heart-wrenching story about friendship and loss. (And he didn't just write one amazing book \u2014 head to our guide to the15 best John Steinbeck booksto discover more!)",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Of_Mice_and_Men.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 72,
+        "fields": {
+            "title": "The Old Man and the Sea",
+            "author": 72,
+            "description": "In this short novel, Santiago is an old fisherman who one day happens upon a marlin that might be able to make him rich. One ofHemingway\u2019s best,The Old Man and the Seawon the Pulitzer Prize for Fiction in 1953.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Old_Man_and_the_Sea.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 73,
+        "fields": {
+            "title": "Oliver Twist ",
+            "author": 73,
+            "description": "Young Oliver Twist is an orphaned boy living on the streets when he escapes to London in the 1800s. But that\u2019s just the start of his story, as Oliver goes on to befriend a gang of juvenile thieves \u2014 and a pickpocket named The Artful Dodger.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Oliver_Twist_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 74,
+        "fields": {
+            "title": "One Hundred Years of Solitude",
+            "author": 74,
+            "description": "Gabriel Garcia Marquez covers seven generations of one family while exploring themes of fatalism, subjectivity, death, and time in a world where magical elements combine seamlessly with real life.One of the most important works in Spanish literature and a landmark of magical realism in its own right.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/One_Hundred_Years_of_Solitude.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 75,
+        "fields": {
+            "title": "One Thousand and One Nights ",
+            "author": 75,
+            "description": "You might vaguely know the gist of the story behindOne Thousand and One Arabian Nights, but have you ever actually read it before? This is the must-read translation, as new bride Scheherazade must wittily come up with new tales to escape her execution night after night.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/One_Thousand_and_One_Nights_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 76,
+        "fields": {
+            "title": "A Passage to India",
+            "author": 76,
+            "description": "Adela Quested is to be engaged to Ronny Moore in Chandrapore, which necessitates a journey to India in the 1920s. This novel, regarded as one of the must-read books of the twentieth century, was instrumental in launching a postcolonial discourse against the backdrop of the Indian independence movement.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/A_Passage_to_India.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 77,
+        "fields": {
+            "title": "Pedro P\u00e1ramo ",
+            "author": 77,
+            "description": "In the town of Comala, where ghosts are indistinguishable from the living, young Juan Preciado goes to look for his estranged father. In his only published novel, Rulfo weaves together a story that\u2019s told in such a way that readers are left wondering who\u2019s truly alive and who's dead \u2014 and whether there\u2019s more to the town than first meets the eye.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Pedro_P\u00e1ramo_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 78,
+        "fields": {
+            "title": "The Phantom Tollbooth",
+            "author": 78,
+            "description": "From the mind of Norton Juster comes a magical journey. Milo is a young boy who\u2019s beyond bored of everything \u2014 that is, until a tollbooth appears in his room one day and transports him into a land that\u2019s the opposite of dull.The Phantom Tollboothis a classic children's fantasy.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Phantom_Tollbooth.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 79,
+        "fields": {
+            "title": "Pippi Longstocking",
+            "author": 79,
+            "description": "You won\u2019t find many characters like Pippi Longstocking. Freckled, red-haired, and nine-years old, Pippi also happens to be the strongest girl in the world: she can lift a horsewith one hand. Think of all the adventures she can go on with strength like that!",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Pippi_Longstocking.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 80,
+        "fields": {
+            "title": "Pride and Prejudice",
+            "author": 80,
+            "description": "The source of film and TV adaptations, sequels, and several hundred reimaginings,Pride and Prejudiceis one of the cornerstones of English literature. Through wit, sarcasm, and humor, this 19th-century novel centers on the five unmarried (gasp!) Bennet sisters while exploring themes of family, society, and, yes, love.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Pride_and_Prejudice.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 81,
+        "fields": {
+            "title": "The Remains of the Day ",
+            "author": 81,
+            "description": "Stevens, a butler in post-World War II England, takes a trip through the countryside. This celebrated novel is all the more powerful for its deceptive simplicity, as it shows that the quietest stories are sometimes the most dangerous.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Remains_of_the_Day_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 82,
+        "fields": {
+            "title": "Romeo and Juliet",
+            "author": 82,
+            "description": "Shakespeare\u2019s masterpiece tells the story of two young lovers separated by a bitter family feud. Featuring one of the most well-known couples ever,Romeo and Juliethas launched a legion of fans.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Romeo_and_Juliet.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 83,
+        "fields": {
+            "title": "A Series of Unfortunate Events",
+            "author": 83,
+            "description": "The Baudelaire siblings have the worst luck ever. No wonder their stories are calledA Series of Unfortunate Events. First their parents die in a fire, then they are shipped off to a remote house \u2014 and then they discover that their new caretaker, Count Olaf, wants to kill them! Now they must have their wits about them and rely on each other more than ever if they are to survive Count Olaf\u2019s schemes.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/A_Series_of_Unfortunate_Events.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 84,
+        "fields": {
+            "title": "The Shadow of the Wind",
+            "author": 84,
+            "description": "Young Daniel Sampere findsThe Shadow of the Windin the Cemetery of Forgotten Books. In this story-within-a-story, Daniel uncovers the mystery behind the book\u2019s author and must now protect it from someone who\u2019s determined to burn every single copy in existence.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Shadow_of_the_Wind.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 85,
+        "fields": {
+            "title": "Slaughterhouse-Five",
+            "author": 85,
+            "description": "UnderKurt Vonnegut\u2019ssure touch, Billy Pilgrim\u2019s journey through time during World War II is rendered scathingly well, makingSlaughterhouse-Fiveone of the most greatest anti-war books ever written.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Slaughterhouse-Five.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 86,
+        "fields": {
+            "title": "The Sound of the Mountain",
+            "author": 86,
+            "description": "As the patriarch of his family in Kamakura, Ogata Shingo is troubled when his memory begins failing and he keeps hearing the mountains shaking in his sleep. A sparse and beautiful meditation on old age from a celebrated Nobel Prize-winning author.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Sound_of_the_Mountain.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 87,
+        "fields": {
+            "title": "The Stranger",
+            "author": 87,
+            "description": "In Albert Camus\u2019 own words: \u201cIn our society any man who does not weep at his mother's funeral runs the risk of being sentenced to death.\u201d Such is the absurdity of life that Meursault faces in this dense crowning jewelof Camus\u2019 career.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Stranger.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 88,
+        "fields": {
+            "title": "The Tale of Genji",
+            "author": 88,
+            "description": "Dating to the early years of the eleventh-century, this ancient classic of Japanese literature is the famous portrayal of Hikaru Genji\u2019s life, love affairs, and aristocratic customs in Heian Period Japan.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Tale_of_Genji.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 89,
+        "fields": {
+            "title": "Things Fall Apart",
+            "author": 89,
+            "description": "The first novel in an acclaimed trilogy,Things Fall Apartis the seminal novel of the African experience. More than that, it is a wrenching tragedy of one man\u2019s futile fight against change as British rule overcomes the land.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Things_Fall_Apart.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 90,
+        "fields": {
+            "title": "The Three Musketeers ",
+            "author": 90,
+            "description": "In this classic novel of adventure, d\u2019Artagnan is a young man in search of his destiny when he joins the Musketeers of the Guard. But his life intertwines inextricably with another\u2019s journey when he meets Athos, Porthos, and Aramis: the King\u2019s most elite musketeers.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Three_Musketeers_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 91,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": 91,
+            "description": "Scout Finch is an ordinary girl living with her brother and father in Alabama when the arrest of a black man, Tom Robinson, upends everyone\u2019s lives. A coming-of-age in the South becomes a gripping courtroom thriller in this Pulitzer Prize-winning book that may rank up there as one of themost beloved books of all time.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/To_Kill_a_Mockingbird.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 92,
+        "fields": {
+            "title": "Treasure Island ",
+            "author": 92,
+            "description": "Buried gold is the name and pirates are the game in this 1883 story by Robert Louis Stevenson, which became the definitive adventure book for many generations of readers.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Treasure_Island_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 93,
+        "fields": {
+            "title": "Ulysses ",
+            "author": 93,
+            "description": "Controversial and magnificent,Ulyssesis James Joyce\u2019s answer to the modernist movement: a puzzlingly sweeping novel that centers on the day of one Leopold Bloom in Dublin.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Ulysses_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 94,
+        "fields": {
+            "title": "War and Peace ",
+            "author": 94,
+            "description": "Up there as one of the greatest works ever written,War and Peaceis Tolstoy\u2019s epic account of two young men and one young woman, as they stand amidst the swirling spectre of Napoleon\u2019s invasion of Russia in 1812.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/War_and_Peace_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 95,
+        "fields": {
+            "title": "Watership Down",
+            "author": 95,
+            "description": "Hazel, Fiver, Blackberry, and crew are the hardiest band of adventurers that you\u2019ll ever meet, with one caveat: they\u2019re rabbits. And they\u2019re on the escape, looking for a new warren to call home.Watership Downis a classic for children and adults alike.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Watership_Down.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 96,
+        "fields": {
+            "title": "Winnie-the-Pooh",
+            "author": 96,
+            "description": "Haven\u2019t you readWinnie the Poohyet? Think, think, think! No? Gosh, you really haven\u2019t? Oh, bother! Well, don\u2019t worry, there\u2019s still time to fix that catastrophic error by picking up this cornerstone of children\u2019s literature and joining Winnie, Piglet, and friends on the journey of a lifetime.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Winnie-the-Pooh.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 97,
+        "fields": {
+            "title": "The Woman in White",
+            "author": 97,
+            "description": "A young and distressed woman dressed entirely in white one day appears to Walter Hartright, kicking off the plot ofThe Woman in White, often described asone of the finest mystery novelsever written.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Woman_in_White.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 98,
+        "fields": {
+            "title": "The Wonderful Wizard of Oz ",
+            "author": 98,
+            "description": "Dorothy and friends go on an adventure, and who knows what awaits them at the end of the Yellow Brick Road? Frank L. Baum\u2019s treasured classic was famously adapted into the first color film ever made, which is befitting of this whimsical, charmingly bright story.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/The_Wonderful_Wizard_of_Oz_.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 99,
+        "fields": {
+            "title": "A Wrinkle in Time",
+            "author": 99,
+            "description": "It was a dark and stormy night\u2026 when Mrs. Whatsit walks through the door of 13-year old Meg Murry\u2019s house, shortly followed by Mrs. Who and Mrs. Which.A bewitching, groundbreaking fantasy that's afeat of worldbuildingby a master of the genre.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/A_Wrinkle_in_Time.jpg"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 100,
+        "fields": {
+            "title": "Wuthering Heights",
+            "author": 100,
+            "description": "Emily Bront\u00eb's only novel is a staggering tour de force: a violent,gothic tragedyabout the passionate, tempestuous affair between Catherine Earnshaw and Heathcliff \u2014 and the havoc that it threatens to wreak upon the moors.",
+            "created_date": "2022-05-18",
+            "updated_date": "2022-05-18",
+            "image": "/Wuthering_Heights.jpg"
+        }
+    }
+]

@@ -1,0 +1,1002 @@
+[
+    {
+        "model": "book.author",
+        "pk": 1,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Orwell",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 2,
+        "fields": {
+            "first_name": "Mark",
+            "last_name": "Twain",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 3,
+        "fields": {
+            "first_name": "Arthur",
+            "last_name": "Doyle",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 4,
+        "fields": {
+            "first_name": "Paulo",
+            "last_name": "Coelho",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 5,
+        "fields": {
+            "first_name": "Jorge",
+            "last_name": "Borges",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 6,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Orwell",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 7,
+        "fields": {
+            "first_name": "Aesop",
+            "last_name": "Aesop",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 8,
+        "fields": {
+            "first_name": "Lewis",
+            "last_name": "Carroll",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 9,
+        "fields": {
+            "first_name": "Leo",
+            "last_name": "Tolstoy",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 10,
+        "fields": {
+            "first_name": "L.M.",
+            "last_name": "Montgomery",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 11,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Faulkner",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 12,
+        "fields": {
+            "first_name": "Toni",
+            "last_name": "Morrison",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 13,
+        "fields": {
+            "first_name": "Markus",
+            "last_name": "Zusak",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 14,
+        "fields": {
+            "first_name": "Aldous",
+            "last_name": "Huxley",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 15,
+        "fields": {
+            "first_name": "Fyodor",
+            "last_name": "Dostoevsky",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 16,
+        "fields": {
+            "first_name": "Joseph",
+            "last_name": "Heller",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 17,
+        "fields": {
+            "first_name": "J.D.",
+            "last_name": "Salinger",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 18,
+        "fields": {
+            "first_name": "Roald",
+            "last_name": "Dahl",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 19,
+        "fields": {
+            "first_name": "E.",
+            "last_name": "White",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 20,
+        "fields": {
+            "first_name": "Jack",
+            "last_name": "London",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 21,
+        "fields": {
+            "first_name": "Anthony",
+            "last_name": "Burgess",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 22,
+        "fields": {
+            "first_name": "P.G.",
+            "last_name": "Wodehouse",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 23,
+        "fields": {
+            "first_name": "Edgar",
+            "last_name": "Poe",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 24,
+        "fields": {
+            "first_name": "Alice",
+            "last_name": "Walker",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 25,
+        "fields": {
+            "first_name": "Neil",
+            "last_name": "Gaiman",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 26,
+        "fields": {
+            "first_name": "Alexandre",
+            "last_name": "Dumas",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 27,
+        "fields": {
+            "first_name": "Fyodor",
+            "last_name": "Dostoyevsky",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 28,
+        "fields": {
+            "first_name": "Mark",
+            "last_name": "Haddon",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 29,
+        "fields": {
+            "first_name": "Carlos",
+            "last_name": "Fuentes",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 30,
+        "fields": {
+            "first_name": "Lu",
+            "last_name": "Xun",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 31,
+        "fields": {
+            "first_name": "Anne",
+            "last_name": "Frank",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 32,
+        "fields": {
+            "first_name": "Dante",
+            "last_name": "Alighieri",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 33,
+        "fields": {
+            "first_name": "Miguel",
+            "last_name": "Saavedra",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 34,
+        "fields": {
+            "first_name": "Bram",
+            "last_name": "Stoker",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 35,
+        "fields": {
+            "first_name": "Jane",
+            "last_name": "Austen",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 36,
+        "fields": {
+            "first_name": "Ray",
+            "last_name": "Bradbury",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 37,
+        "fields": {
+            "first_name": "Mary",
+            "last_name": "Shelley",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 38,
+        "fields": {
+            "first_name": "Lois",
+            "last_name": "Lowry",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 39,
+        "fields": {
+            "first_name": "Philip",
+            "last_name": "Pullman",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 40,
+        "fields": {
+            "first_name": "Margaret",
+            "last_name": "Brown",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 41,
+        "fields": {
+            "first_name": "Charles",
+            "last_name": "Dickens",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 42,
+        "fields": {
+            "first_name": "",
+            "last_name": "",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 43,
+        "fields": {
+            "first_name": "Jacob",
+            "last_name": "Grimm",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 44,
+        "fields": {
+            "first_name": "Jonathan",
+            "last_name": "Swift",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 45,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Shakespeare",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 46,
+        "fields": {
+            "first_name": "Margaret",
+            "last_name": "Atwood",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 47,
+        "fields": {
+            "first_name": "J.K.",
+            "last_name": "Rowling",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 48,
+        "fields": {
+            "first_name": "Joseph",
+            "last_name": "Conrad",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 49,
+        "fields": {
+            "first_name": "Elena",
+            "last_name": "Poniatowska",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 50,
+        "fields": {
+            "first_name": "Douglas",
+            "last_name": "Adams",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 51,
+        "fields": {
+            "first_name": "J.",
+            "last_name": "Tolkien",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 52,
+        "fields": {
+            "first_name": "Louis",
+            "last_name": "Sachar",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 53,
+        "fields": {
+            "first_name": "Julio",
+            "last_name": "Cort\u00e1zar",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 54,
+        "fields": {
+            "first_name": "Homer",
+            "last_name": "Homer",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 55,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Ellison",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 56,
+        "fields": {
+            "first_name": "Charlotte",
+            "last_name": "Bront\u00eb",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 57,
+        "fields": {
+            "first_name": "Jules",
+            "last_name": "Verne",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 58,
+        "fields": {
+            "first_name": "Victor",
+            "last_name": "Hugo",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 59,
+        "fields": {
+            "first_name": "Yann",
+            "last_name": "Martel",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 60,
+        "fields": {
+            "first_name": "C.",
+            "last_name": "Lewis",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 61,
+        "fields": {
+            "first_name": "Antoine",
+            "last_name": "Saint-Exup\u00e9ry",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 62,
+        "fields": {
+            "first_name": "Louisa",
+            "last_name": "Alcott",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 63,
+        "fields": {
+            "first_name": "Vladimir",
+            "last_name": "Nabokov",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 64,
+        "fields": {
+            "first_name": "J.R.R.",
+            "last_name": "Tolkien",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 65,
+        "fields": {
+            "first_name": "Gabriel",
+            "last_name": "Marquez",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 66,
+        "fields": {
+            "first_name": "Gustave",
+            "last_name": "Flaubert",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 67,
+        "fields": {
+            "first_name": "Franz",
+            "last_name": "Kafka",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 68,
+        "fields": {
+            "first_name": "Herman",
+            "last_name": "Melville",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 69,
+        "fields": {
+            "first_name": "Virginia",
+            "last_name": "Woolf",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 70,
+        "fields": {
+            "first_name": "Agatha",
+            "last_name": "Christie",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 71,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Steinbeck",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 72,
+        "fields": {
+            "first_name": "Ernest",
+            "last_name": "Hemingway",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 73,
+        "fields": {
+            "first_name": "Charles",
+            "last_name": "Dickens",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 74,
+        "fields": {
+            "first_name": "Gabriel",
+            "last_name": "Marquez",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 75,
+        "fields": {
+            "first_name": "Unknown",
+            "last_name": "Unknown",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 76,
+        "fields": {
+            "first_name": "E.M.",
+            "last_name": "Forster",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 77,
+        "fields": {
+            "first_name": "Juan",
+            "last_name": "Rulfo",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 78,
+        "fields": {
+            "first_name": "Norton",
+            "last_name": "Juster",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 79,
+        "fields": {
+            "first_name": "Astrid",
+            "last_name": "Lindgren",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 80,
+        "fields": {
+            "first_name": "Jane",
+            "last_name": "Austen",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 81,
+        "fields": {
+            "first_name": "Kazuo",
+            "last_name": "Ishiguro",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 82,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Shakespeare",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 83,
+        "fields": {
+            "first_name": "Lemony",
+            "last_name": "Snicket",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 84,
+        "fields": {
+            "first_name": "Carlos",
+            "last_name": "Zaf\u00f3n",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 85,
+        "fields": {
+            "first_name": "Kurt",
+            "last_name": "Vonnegut",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 86,
+        "fields": {
+            "first_name": "Yasunari",
+            "last_name": "Kawabata",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 87,
+        "fields": {
+            "first_name": "Albert",
+            "last_name": "Camus",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 88,
+        "fields": {
+            "first_name": "Murasaki",
+            "last_name": "Shikibu",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 89,
+        "fields": {
+            "first_name": "Chinua",
+            "last_name": "Achebe",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 90,
+        "fields": {
+            "first_name": "Alexandre",
+            "last_name": "Dumas",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 91,
+        "fields": {
+            "first_name": "Harper",
+            "last_name": "Lee",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 92,
+        "fields": {
+            "first_name": "Robert",
+            "last_name": "Stevenson",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 93,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Joyce",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 94,
+        "fields": {
+            "first_name": "Leo",
+            "last_name": "Tolstoy",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 95,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Adams",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 96,
+        "fields": {
+            "first_name": "A.",
+            "last_name": "Milne",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 97,
+        "fields": {
+            "first_name": "Wilkie",
+            "last_name": "Collins",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 98,
+        "fields": {
+            "first_name": "L.",
+            "last_name": "Baum",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 99,
+        "fields": {
+            "first_name": "Madeleine",
+            "last_name": "L'Engle",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 100,
+        "fields": {
+            "first_name": "Emily",
+            "last_name": "Bront\u00eb",
+            "date_of_birth": "2022-05-18",
+            "date_of_death": "2022-05-18"
+        }
+    }
+]

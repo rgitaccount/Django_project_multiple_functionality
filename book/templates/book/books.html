@@ -1,0 +1,43 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div class="container-md p-3">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+
+        {% for book in books %}
+
+        <div class="col">
+            <div class="card h-100">
+
+                {% if book.image %}
+                <div>
+                    <img src="{{ book.image.url }}" class="card-img-top img-thumbnail" style="width: 18rem; height: 20rem;object-fit: cover;" alt="...">
+                </div>
+                {% endif %}
+
+                <div class="card-body">
+                    <h5 class="card-title text-primary">{{ book.title }}</h5>
+                    <p class="card-text">{{ book.description }}</p>
+                    <p class="card-text">
+                        <a href="#">
+                        {{ book.author }}
+                        </a>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        <a href="/book/{{ book.id }}" class="btn btn-primary">Read more...</a>
+                    </small>
+                </div>
+          </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+</div>
+
+
+
+{% endblock content %}

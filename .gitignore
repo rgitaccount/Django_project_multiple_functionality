@@ -5,3 +5,5 @@ __pychache__/
 *$py.class
 *.so
 db.sqlite3
+media
+static
