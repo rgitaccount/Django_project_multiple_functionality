@@ -1,6 +1,53 @@
 {% extends 'main.html' %}
+{% block title %} Read it {% endblock title %}
 
 {% block content %}
+
+<style>
+
+        :root {
+          --star-size: 20px;
+          --star-color: #6c757d;
+          --star-background: #ff8300;
+        }
+
+        .Stars {
+          --percent: calc(var(--rating) / 5 * 100%);
+          display: inline-block;
+          font-size: var(--star-size);
+          font-family: Times;
+          line-height: 1;
+        }
+        .Stars::before {
+          content: "★★★★★";
+          letter-spacing: 3px;
+          background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        body {
+          background: #eee;
+        }
+
+</style>
+
+
+
+<div class="container p-3">
+    <div class="text-center">
+        <p1>View filtered by:</p1>
+        <a class="badge bg-secondary" href="{% url 'books_url:latest' %}">Latest</a>
+        <a class="badge bg-secondary" href="{% url 'books_url:by_name' %}">Name</a>
+
+        {% for genre in genres %}
+
+            <a class="badge {{ badge_classes|random }}" href="{% url 'books_url:by_genre' %}?q={{ genre.name }}">{{ genre }}</a>
+
+        {% endfor %}
+
+    </div>
+</div>
 
 <div class="container-md p-3">
     <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -12,7 +59,7 @@
 
                 {% if book.image %}
                 <div>
-                    <img src="{{ book.image.url }}" class="card-img-top img-thumbnail" style="width: 18rem; height: 20rem;object-fit: cover;" alt="...">
+                    <img src="{{ book.image.url }}" class="card-img-top img-thumbnail mx-auto d-block" style="width: auto; height: 18rem;object-fit: cover;" alt="...">
                 </div>
                 {% endif %}
 
@@ -22,7 +69,21 @@
                     <p class="card-text">
                         <a href="#">
                         {{ book.author }}
-                        </a>
+                        </a> <br>
+
+                        <div class="Stars" style="--rating: {{ book.rating.rating }};" aria-label="Rating of this product is 2.3 out of 5."></div>
+
+                        <br>
+                                {% if book.genre %}
+
+                                    {% for genre in book.genre.all %}
+
+                                        <a href="{% url 'books_url:by_genre' %}?q={{ genre.name }}" class="badge {{ badge_classes|random }} text-decoration-none">{{genre}}</a>
+
+                                    {% endfor %}
+
+                                {% endif%}
+
                     </p>
                 </div>
                 <div class="card-footer">
