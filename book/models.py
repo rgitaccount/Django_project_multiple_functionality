@@ -15,6 +15,13 @@ class Rating(models.Model):
         return str(self.rating)
 
 
+class BooksUser(models.Model):
+    username = models.CharField(max_length=255)
+
+    def __str__(self):
+        return str(self.username)
+
+
 class Book(models.Model):
     title = models.CharField(max_length=255)
     author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True)
@@ -39,7 +46,13 @@ class Author(models.Model):
         return f'{self.last_name}, {self.first_name}'
 
 
+class BookFeedBack(models.Model):
+    books = models.ForeignKey(Book, on_delete=models.CASCADE, related_name="book_feedback")
+    user = models.ForeignKey(BooksUser, on_delete=models.CASCADE, related_name="books_user", null=True)
+    text = models.TextField()
+    created_date = models.DateField(auto_now_add=True)
+    updated_date = models.DateField(auto_now=True)
 
-
-
+    def __str__(self):
+        return self.books.title
 

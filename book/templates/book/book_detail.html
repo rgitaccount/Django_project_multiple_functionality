@@ -1,33 +1,45 @@
 {% extends 'main.html' %}
 {% block title %} Book detail {% endblock title %}
-
 {% block content %}
-
-    <div class="container-md">
-
-        {% if book.image %}
-        <img src="{{ book.image.url }}" alt="">
-        {% endif %}
-        <div class="d-flex">
-            <div class="p-2">
-                <h2>{{ book.title }}</h2>
-            </div>
-            <a href="/books/{{ book.id }}/update/" class="p-2 text-decoration-none">✏</a>
-            <a href="/books/{{ book.id }}/delete/" class="p-2 text-decoration-none">❌</a>
-        </div>
-        <p>{{ book.description }}</p>
-        <p>{{ book.author }}</p>
-
-        {% if book.genre %}
-
-            {% for genre in book.genre.all %}
-
-                <a href="#" class="badge {{ badge_classes|random }} text-decoration-none">{{genre}}</a>
-
-            {% endfor %}
-
-        {% endif%}
-
-    </div>
-
+<div class="container-md">
+   <div>
+      {% if object.image %}
+      <img src="{{ book.image.url }}" alt="">
+      {% endif %}
+      <div class="d-flex">
+         <div class="p-2">
+            <h2>{{ object.title }}</h2>
+         </div>
+         <a href="/books/{{ object.id }}/update/" class="p-2 text-decoration-none">✏</a>
+         <a href="/books/{{ object.id }}/delete/" class="p-2 text-decoration-none">❌</a>
+      </div>
+      <p>{{ object.description }}</p>
+      <p>{{ object.author }}</p>
+      {% if object.genre %}
+      {% for genre in object.genre.all %}
+      <a href="#" class="badge {{ badge_classes|random }} text-decoration-none">{{genre}}</a>
+      {% endfor %}
+      {% endif%}
+   </div>
+   <!--Comments-->
+   {% for comment in object.book_feedback.all %}
+   <div class="container p-3">
+      <div class="row justify-content-start">
+         <div class="col-1">
+            <img src="https://picsum.photos/50/50" alt="">
+         </div>
+         <div class="col h-5">
+            <a href="#"><b>{{ comment.user.username }}</b></a>
+            made a post.
+            <small>{{ comment.created_date|timesince }} ago</small>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col">
+            <p>{{ comment.text }}</p>
+         </div>
+      </div>
+   </div>
+   {% endfor %}
+</div>
 {% endblock content %}

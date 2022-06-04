@@ -1,53 +1,59 @@
-from django.shortcuts import render, get_object_or_404, redirect,reverse
+from django.shortcuts import render, get_object_or_404, redirect, reverse
 from . import models, forms
 from datetime import datetime, timedelta
+from django.views import generic
+
 
 start_date = datetime.today() - timedelta(days=5)
 
 
-def all_books(request):
-    books = models.Book.objects.all()
-    genres = models.Genre.objects.all()
+class BooksListView(generic.ListView):
+    template_name = "book/books.html"
     badge_classes = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
-    return render(request, "book/books.html", {"books": books,
-                                               "badge_classes": badge_classes,
-                                               "genres": genres})
+    queryset = models.Book.objects.order_by("id")
+    paginate_by = 8
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        genres = models.Genre.objects.all()
+        context['badge_classes'] = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
+        context['genres'] = genres
+        return context
 
 
-def books_filtered_latest(request):
-    queryset = models.Book.objects.filter(created_date__gt=start_date).order_by("-id")
-    genres = models.Genre.objects.all()
-    badge_classes = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
-    return render(request, "book/books.html", {"books": queryset,
-                                               "badge_classes": badge_classes,
-                                               "genres": genres})
+class BooksListViewByGenre(BooksListView):
+    template_name = "book/books.html"
+    paginate_by = 8
+
+    def get_queryset(self, **kwargs):
+        self.genre = get_object_or_404(models.Genre, name=self.kwargs['genre'])
+        return models.Book.objects.filter(genre=self.genre)
 
 
-def books_filtered_by_name(request):
-    queryset = models.Book.objects.order_by("title")
-    genres = models.Genre.objects.all()
-    badge_classes = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
-    return render(request, "book/books.html", {"books": queryset,
-                                               "badge_classes": badge_classes,
-                                               "genres": genres})
+class BookDetailView(generic.DetailView):
+    template_name = "book/book_detail.html"
+
+    def get_object(self, **kwargs):
+        book_id = self.kwargs.get('id')
+        return get_object_or_404(models.Book, id=book_id)
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        genres = models.Genre.objects.all()
+        context['badge_classes'] = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
+        context['genres'] = genres
+        return context
 
 
-def books_filtered_by_genre(request):
-    q = request.GET.get('q')
-    queryset = models.Book.objects.filter(genre__name=q)
+class BookCreateView(generic.CreateView):
+    template_name = "add_book.html"
+    form_class = forms.BookForm
+    queryset = models.Book.objects.all()
+    success_url = "/books/"
 
-    genres = models.Genre.objects.all()
-    badge_classes = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
-    return render(request, "book/books.html", {"books": queryset,
-                                               "badge_classes": badge_classes,
-                                               "genres": genres})
-
-
-def book_detail(request, id):
-    object = get_object_or_404(models.Book, id=id)
-    badge_classes = ["bg-success", "bg-primary", "bg-secondary", "bg-danger"]
-    return render(request, "book/book_detail.html", {"book": object,
-                                                     "badge_classes": badge_classes})
+    def form_valid(self, form):
+        print(form.cleaned_data)
+        return super(BookCreateView, self).form_valid(form=form)
 
 
 def add_book(request):
