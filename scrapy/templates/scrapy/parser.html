@@ -1,0 +1,19 @@
+{% extends 'main.html' %}
+{% block title %} Parser {% endblock %}
+
+{% block content %}
+    <div class="container-md p-3">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Start Parsing">
+        </form>
+    </div>
+    <div class="container-md p-3">
+        {% for book in object_list %}
+            <p1>{{ book.title }}</p1>
+        {% endfor %}
+    </div>
+
+
+{% endblock content %}
